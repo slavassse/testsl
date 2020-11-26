@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
 	background-color: #000;
 	background-image: url("images/bg.jpg");
 	background-size: cover;
-	background-position: top center;
+  background-position: top center;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   text-decoration: none;
@@ -33,4 +35,20 @@ a:hover {
 }
 hr.major {
 		margin: 3em 0;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; 
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; 
+}
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; 
 }
