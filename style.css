@@ -10,7 +10,7 @@ a {
   text-decoration: none;
   outline: none;
   display: inline-block;
-  width: 180px;
+  width: 175px;
   height: 45px;
   line-height: 45px;
   border-radius: 45px;
@@ -20,7 +20,7 @@ a {
   font-size: 12px;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   font-weight: 600;
   color: #808080;
   background: #F5F5F5;
@@ -28,6 +28,33 @@ a {
   transition: .3s;
 }
 a:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: white;
+  transform: translateY(-7px);
+}
+a1 {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 5px 20px;
+  border: 3px solid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #808080;
+  background: #F5F5F5;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+a1:hover {
   background: #2EE59D;
   box-shadow: 0 15px 20px rgba(46,229,157,.4);
   color: white;
@@ -52,3 +79,20 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; 
 }
+.inthis{
+  text-align:center;
+  width:100%;
+}
+  .block{
+  margin:10pt;
+  width:120px;
+  height:100px;
+  display:inline-block;
+  vertical-align: middle;
+  padding:10pt;
+}
+  /*
+  для любимого IE блокам с классом block добавляем
+       _display:inline;
+       *display:inline;
+  */
