@@ -30,7 +30,7 @@ a.but {
 a.but:hover {
   background: #2EE59D;
   box-shadow: 0 15px 20px rgba(46,229,157,.4);
-  color: white;
+  color: #F5F5F5;
   transform: translateY(-7px);
 }
 a.dopbut {
