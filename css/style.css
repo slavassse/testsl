@@ -79,22 +79,14 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; 
 }
-.inthis {
+.inthis{
   text-align:center;
   width:100%;
 }
-.inthis2 {
-  text-align:center;
-  width:100%;
-}
-.inthis3 {
-  text-align:center;
-  width:100%;
-}
-  .block {
+  .block{
   margin:10pt;
   width:120px;
-  height:100px;
+  height:300px;
   display:inline-block;
   vertical-align: middle;
   padding:10pt;
